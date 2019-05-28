@@ -1,0 +1,28 @@
+{
+  "name": "cracking_the_coding_interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node arrays-and-strings/unique-characters-with-no-ds.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jitendra8911/Cracking_The_Coding_Interview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jitendra8911/Cracking_The_Coding_Interview/issues"
+  },
+  "homepage": "https://github.com/jitendra8911/Cracking_The_Coding_Interview#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "eslint": "^5.16.0"
+  }
+}
