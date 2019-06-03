@@ -42,7 +42,7 @@ function merge(arr, start, mid, end) {
     let i = start;
     let j = mid+1;
 
-    while (i !== end) {
+    while (i < end && j <= end) {
         if (arr[i] < arr[j]) {
             i++;
         }
@@ -64,7 +64,7 @@ function merge(arr, start, mid, end) {
 
 }
 
-let arr = [1000, 300, 7000,300,7000,1000,10,3,2,7,5];
+let arr = [1000, 300, 7000,300,7000,1000,10,3,2,7,5,90,871,256,752,752,3,2];
 mergeSort(arr);
 console.log(arr);
 
