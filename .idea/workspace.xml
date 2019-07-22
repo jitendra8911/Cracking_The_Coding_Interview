@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3be2be1f-4f9d-49e7-af89-9dfc73859f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays-and-strings/rotate-matrix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays-and-strings/string-rotation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays-and-strings/zero-matrix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optimal-utilization.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.4.5.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.4.5.development.json" afterDir="false" />
     </list>
@@ -19,17 +22,19 @@
     <session id="1087238737">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="babelrc" value="2" />
-          <entry key="js" value="16" />
+          <entry key="gitignore" value="1" />
+          <entry key="js" value="20" />
           <entry key="json" value="4" />
           <entry key="ts" value="5" />
           <entry key="unique-characters-with-no-ds" value="1" />
@@ -38,7 +43,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="6" />
-          <entry key="JavaScript" value="16" />
+          <entry key="JavaScript" value="20" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="TypeScript" value="6" />
         </counts>
       </usages-collector>
@@ -51,7 +57,8 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="babelrc" value="27" />
-          <entry key="js" value="7276" />
+          <entry key="gitignore" value="28" />
+          <entry key="js" value="9387" />
           <entry key="json" value="184" />
           <entry key="ts" value="627" />
           <entry key="unique-characters-with-no-ds" value="53" />
@@ -60,7 +67,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="211" />
-          <entry key="JavaScript" value="7276" />
+          <entry key="JavaScript" value="9387" />
+          <entry key="PLAIN_TEXT" value="28" />
           <entry key="TypeScript" value="680" />
         </counts>
       </usages-collector>
@@ -68,37 +76,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sorting/sort.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-              <folding>
-                <element signature="n#!!block;n#partition#0" />
-                <element signature="e#1190#1212#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="383" column="4" selection-start-line="383" selection-start-column="4" selection-end-line="383" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arrays-and-strings/unique-characters-with-no-ds.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arrays-and-strings/check-permutation.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,11 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arrays-and-strings/palindrome-permutation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="836">
               <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-              <folding>
-                <element signature="n#!!block;n#hasPalindrome#0" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -124,16 +98,48 @@
         <entry file="file://$PROJECT_DIR$/src/arrays-and-strings/one-away.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arrays-and-strings/rotate-matrix.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1197">
+              <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arrays-and-strings/zero-matrix.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1615">
+              <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arrays-and-strings/string-rotation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/arrays-and-strings/rotate-matrix.js">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/optimal-utilization.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+            <state relative-caret-position="304">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -152,15 +158,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="16" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2015.symbol.wellknown.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="246" column="4" selection-start-line="246" selection-start-column="4" selection-end-line="246" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -207,6 +204,11 @@
         <option value="$PROJECT_DIR$/src/arrays-and-strings/palindrome-permutation.js" />
         <option value="$PROJECT_DIR$/src/arrays-and-strings/one-away.js" />
         <option value="$PROJECT_DIR$/src/arrays-and-strings/rotate-matrix.js" />
+        <option value="$PROJECT_DIR$/binary-search.js" />
+        <option value="$PROJECT_DIR$/src/optimal-utilization.js" />
+        <option value="$PROJECT_DIR$/src/arrays-and-strings/zero-matrix.js" />
+        <option value="$PROJECT_DIR$/src/arrays-and-strings/string-rotation.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -221,351 +223,20 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/node_modules/@babel/code-frame/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/core/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/generator/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/helper-annotate-as-pure/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/helper-builder-binary-assignment-operator-visitor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/helper-call-delegate/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/helper-define-map/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/helper-explode-assignable-expression/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/helper-function-name/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/helper-get-function-arity/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/helper-hoist-variables/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/helper-member-expression-to-functions/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/helper-module-imports/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/helper-module-transforms/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/helper-optimise-call-expression/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/helper-plugin-utils/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/helper-regex/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/helper-remap-async-to-generator/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/helper-replace-supers/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/helper-simple-access/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/helper-split-export-declaration/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/helper-wrap-function/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/helpers/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/highlight/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/parser/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-proposal-async-generator-functions/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-proposal-json-strings/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-proposal-object-rest-spread/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-proposal-optional-catch-binding/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-proposal-unicode-property-regex/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-syntax-async-generators/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-syntax-json-strings/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-syntax-object-rest-spread/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-syntax-optional-catch-binding/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-arrow-functions/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-async-to-generator/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-block-scoped-functions/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-block-scoping/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-classes/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-computed-properties/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-destructuring/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-dotall-regex/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-duplicate-keys/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-exponentiation-operator/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-for-of/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-function-name/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-literals/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-member-expression-literals/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-modules-amd/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-modules-commonjs/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-modules-systemjs/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-modules-umd/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-named-capturing-groups-regex/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-new-target/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-object-super/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-parameters/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-property-literals/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-regenerator/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-reserved-words/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-shorthand-properties/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-spread/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-sticky-regex/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-template-literals/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-typeof-symbol/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/plugin-transform-unicode-regex/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/preset-env/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/template/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/traverse/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/@babel/types/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ansi-styles/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/anymatch/node_modules/normalize-path/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/anymatch/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/arr-diff/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/arr-flatten/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/arr-union/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/array-unique/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/assign-symbols/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/async-each/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/atob/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/balanced-match/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/base/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/base/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/base/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/base/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/base/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/binary-extensions/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/brace-expansion/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/braces/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/braces/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/browserslist/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/cache-base/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/caniuse-lite/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/chokidar/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/class-utils/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/class-utils/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/collection-visit/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/color-convert/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/color-name/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/commander/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/component-emitter/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/concat-map/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/convert-source-map/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/copy-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/core-js-compat/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/core-js-compat/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/core-js-pure/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/core-util-is/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/decode-uri-component/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/define-property/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/define-property/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/define-property/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/electron-to-chromium/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/escape-string-regexp/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/esutils/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/expand-brackets/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/expand-brackets/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/expand-brackets/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/extend-shallow/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/extglob/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/extglob/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/extglob/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/extglob/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/extglob/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/extglob/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fill-range/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fill-range/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/for-in/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fragment-cache/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/abbrev/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/aproba/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/are-we-there-yet/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/balanced-match/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/brace-expansion/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/chownr/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/code-point-at/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/concat-map/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/console-control-strings/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/core-util-is/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/deep-extend/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/delegates/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/detect-libc/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/fs-minipass/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/fs.realpath/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/gauge/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/glob/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/has-unicode/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/ignore-walk/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/inflight/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/ini/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/is-fullwidth-code-point/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/minimatch/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/minipass/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/minizlib/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/mkdirp/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/needle/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/node-pre-gyp/lib/util/nw-pre-gyp/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/node-pre-gyp/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/nopt/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/npm-bundled/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/npm-packlist/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/npmlog/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/number-is-nan/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/object-assign/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/once/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/os-homedir/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/os-tmpdir/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/osenv/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/path-is-absolute/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/process-nextick-args/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/rc/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/rc/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/rimraf/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/safer-buffer/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/sax/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/set-blocking/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/signal-exit/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/string-width/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/strip-json-comments/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/tar/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/util-deprecate/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/wide-align/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/wrappy/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/node_modules/yallist/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fsevents/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/get-value/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/glob-parent/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/glob-parent/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/globals/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/graceful-fs/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/has-flag/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/has-value/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/has-values/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/has-values/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/invariant/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-binary-path/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-buffer/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-data-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-extglob/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-number/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-number/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-plain-object/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-windows/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/isobject/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/js-levenshtein/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/js-tokens/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/jsesc/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/json5/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lodash/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/loose-envify/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/map-cache/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/map-visit/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/micromatch/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/minimatch/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mixin-deep/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mixin-deep/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mkdirp/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/nan/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/nan/tools/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/nanomatch/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/node-releases/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/normalize-path/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/object-copy/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/object-copy/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/object-copy/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/object-visit/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/object.pick/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pascalcase/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/path-dirname/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/path-is-absolute/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/path-parse/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/posix-character-classes/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/private/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/readdirp/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/regenerate/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/regenerator-transform/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/regex-not/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/regexp-tree/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/regexpu-core/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/regjsgen/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/regjsparser/node_modules/jsesc/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/regjsparser/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/remove-trailing-separator/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/repeat-element/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/repeat-string/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve-url/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/baz/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/browser_field/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/dot_main/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/incorrect_main/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/invalid_main/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/multirepo/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/multirepo/packages/package-a/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/multirepo/packages/package-b/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ret/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/safe-regex/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/set-value/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/set-value/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/snapdragon-node/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/snapdragon-util/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/snapdragon-util/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/snapdragon/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/snapdragon/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/snapdragon/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/source-map-resolve/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/source-map-url/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/split-string/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/static-extend/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/static-extend/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/supports-color/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/to-fast-properties/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/to-object-path/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/to-object-path/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/to-regex-range/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/to-regex/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/trim-right/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/unicode-canonical-property-names-ecmascript/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/unicode-match-property-ecmascript/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/unicode-match-property-value-ecmascript/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/unicode-property-aliases-ecmascript/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/union-value/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/union-value/node_modules/set-value/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/union-value/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/unset-value/node_modules/has-value/node_modules/isobject/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/unset-value/node_modules/has-value/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/unset-value/node_modules/has-values/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/unset-value/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/upath/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/urix/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/use/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/util-deprecate/package.json" />
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="971" />
+    <option name="height" value="963" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -573,28 +244,10 @@
               <item name="Cracking_The_Coding_Interview" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cracking_The_Coding_Interview" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Cracking_The_Coding_Interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cracking_The_Coding_Interview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cracking_The_Coding_Interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cracking_The_Coding_Interview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays-and-strings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cracking_The_Coding_Interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cracking_The_Coding_Interview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -633,39 +286,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.rotate-matrix.js">
+  <component name="RunManager" selected="Node.js.string-rotation.js">
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="$PROJECT_DIR$/node_modules/.bin/babel-node" node-parameters="--presets @babel/env" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="one-away.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="$PROJECT_DIR$/node_modules/.bin/babel-node" nameIsGenerated="true" node-parameters="--presets @babel/env" path-to-js-file="$PROJECT_DIR$/src/arrays-and-strings/one-away.js" working-dir="$PROJECT_DIR$">
+    <configuration name="binary-search.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="$PROJECT_DIR$/node_modules/.bin/babel-node" nameIsGenerated="true" node-parameters="--presets @babel/env" path-to-js-file="$PROJECT_DIR$/binary-search.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="palindrome-permutation.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="$PROJECT_DIR$/node_modules/.bin/babel-node" nameIsGenerated="true" node-parameters="--presets @babel/env" path-to-js-file="$PROJECT_DIR$/src/arrays-and-strings/palindrome-permutation.js" working-dir="$PROJECT_DIR$">
+    <configuration name="optimal-utilization.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="$PROJECT_DIR$/node_modules/.bin/babel-node" nameIsGenerated="true" node-parameters="--presets @babel/env" path-to-js-file="$PROJECT_DIR$/src/optimal-utilization.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="rotate-matrix.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="$PROJECT_DIR$/node_modules/.bin/babel-node" nameIsGenerated="true" node-parameters="--presets @babel/env" path-to-js-file="$PROJECT_DIR$/src/arrays-and-strings/rotate-matrix.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="string-utils.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="$PROJECT_DIR$/node_modules/.bin/babel-node" nameIsGenerated="true" node-parameters="--presets @babel/env" path-to-js-file="$PROJECT_DIR$/src/utils/string-utils.js" working-dir="$PROJECT_DIR$">
+    <configuration name="string-rotation.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="$PROJECT_DIR$/node_modules/.bin/babel-node" nameIsGenerated="true" node-parameters="--presets @babel/env" path-to-js-file="$PROJECT_DIR$/src/arrays-and-strings/string-rotation.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="urlify.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="$PROJECT_DIR$/node_modules/.bin/babel-node" nameIsGenerated="true" node-parameters="--presets @babel/env" path-to-js-file="$PROJECT_DIR$/src/arrays-and-strings/urlify.js" working-dir="$PROJECT_DIR$">
+    <configuration name="zero-matrix.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="$PROJECT_DIR$/node_modules/.bin/babel-node" nameIsGenerated="true" node-parameters="--presets @babel/env" path-to-js-file="$PROJECT_DIR$/src/arrays-and-strings/zero-matrix.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.urlify.js" />
-      <item itemvalue="Node.js.palindrome-permutation.js" />
-      <item itemvalue="Node.js.string-utils.js" />
-      <item itemvalue="Node.js.one-away.js" />
       <item itemvalue="Node.js.rotate-matrix.js" />
+      <item itemvalue="Node.js.binary-search.js" />
+      <item itemvalue="Node.js.optimal-utilization.js" />
+      <item itemvalue="Node.js.zero-matrix.js" />
+      <item itemvalue="Node.js.string-rotation.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.string-rotation.js" />
+        <item itemvalue="Node.js.zero-matrix.js" />
         <item itemvalue="Node.js.rotate-matrix.js" />
-        <item itemvalue="Node.js.one-away.js" />
-        <item itemvalue="Node.js.palindrome-permutation.js" />
-        <item itemvalue="Node.js.string-utils.js" />
-        <item itemvalue="Node.js.urlify.js" />
+        <item itemvalue="Node.js.optimal-utilization.js" />
+        <item itemvalue="Node.js.binary-search.js" />
       </list>
     </recent_temporary>
   </component>
@@ -682,32 +335,34 @@
       <workItem from="1558329090725" duration="505000" />
       <workItem from="1558401926755" duration="13447000" />
       <workItem from="1558887051022" duration="314000" />
-      <workItem from="1558887376312" duration="64016000" />
+      <workItem from="1558887376312" duration="66652000" />
+      <workItem from="1562029936587" duration="9923000" />
+      <workItem from="1563760923393" duration="664000" />
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78282000" />
+    <option name="totallyTimeSpent" value="91505000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="963" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="963" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13622664" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1790235" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4996986" visible="true" weight="0.30998853" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35706085" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996986" weight="0.33983928" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3421355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.39862543" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.39839265" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50030136" side_tool="true" weight="0.3764302" />
       <window_info anchor="bottom" id="Quokka" order="12" weight="0.3665521" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -732,110 +387,87 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/arrays-and-strings/unique-characters-with-no-ds.js</url>
           <line>22</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/arrays-and-strings/unique-characters-with-no-ds.js</url>
           <line>24</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/arrays-and-strings/unique-characters-with-no-ds.js</url>
           <line>26</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/arrays-and-strings/unique-characters-with-no-ds.js</url>
           <line>28</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/tests/merge-sort.js</url>
           <line>18</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/tests/merge-sort.js</url>
           <line>24</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/tests/merge-sort.js</url>
           <line>15</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/tests/merge-sort.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/tests/merge-sort.js</url>
           <line>3</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/tests/merge-sort.js</url>
           <line>14</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/tests/merge-sort.js</url>
           <line>17</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <condition expression="start == 0 &amp;&amp; end == 10" language="JavaScript" />
           <url>file://$PROJECT_DIR$/src/sorting/sort.js</url>
           <line>44</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/arrays-and-strings/urlify.js</url>
           <line>6</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/arrays-and-strings/urlify.js</url>
           <line>7</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/arrays-and-strings/one-away.js</url>
           <line>16</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/arrays-and-strings/one-away.js</url>
           <line>19</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/arrays-and-strings/rotate-matrix.js</url>
           <line>38</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/arrays-and-strings/rotate-matrix.js</url>
-          <line>51</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -855,6 +487,31 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>forwardRouteList[0][1]</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>forwardRouteList[0][0]</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>forwardRouteList[0]</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>forwardRouteList[i][0][1]</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>forwardRouteList[1][i] + returnRouteList[1][j]</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>(check &amp; (check - 1)) &gt; 0</expression-string>
         <language-id>JavaScript</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -871,31 +528,6 @@
       </expression>
       <expression>
         <expression-string>count % 2 !== 0</expression-string>
-        <language-id>JavaScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>count % 2 !== 0 &amp;&amp; count !== 1</expression-string>
-        <language-id>JavaScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>countMap</expression-string>
-        <language-id>JavaScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>str.charAt(i) === &quot; &quot;</expression-string>
-        <language-id>JavaScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>str.charAt(i) === &quot;&quot;</expression-string>
-        <language-id>JavaScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>str.charAt(i)</expression-string>
         <language-id>JavaScript</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -974,15 +606,15 @@
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="7030">
           <caret line="383" column="4" selection-start-line="383" selection-start-column="4" selection-end-line="383" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays-and-strings/urlify.js">
+    <entry file="file://$PROJECT_DIR$/src/arrays-and-strings/unique-characters-with-no-ds.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="304">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -993,20 +625,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays-and-strings/unique-characters-with-no-ds.js">
+    <entry file="file://$PROJECT_DIR$/src/arrays-and-strings/palindrome-permutation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="836">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays-and-strings/palindrome-permutation.js">
+    <entry file="file://$PROJECT_DIR$/src/arrays-and-strings/one-away.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!block;n#hasPalindrome#0" />
-          </folding>
+        <state relative-caret-position="304">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays-and-strings/rotate-matrix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays-and-strings/zero-matrix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/optimal-utilization.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -1017,19 +667,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays-and-strings/one-away.js">
+    <entry file="file://$PROJECT_DIR$/src/arrays-and-strings/urlify.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="16" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays-and-strings/rotate-matrix.js">
+    <entry file="file://$PROJECT_DIR$/binary-search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        <state relative-caret-position="189">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays-and-strings/string-rotation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
