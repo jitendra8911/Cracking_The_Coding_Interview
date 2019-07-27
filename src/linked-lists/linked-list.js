@@ -6,7 +6,7 @@ class Node {
 
 }
 
-class LinkedList {
+export class LinkedList {
     constructor(arr) {
         this.head = null;
         if (Array.isArray(arr) && arr.length) {
@@ -84,10 +84,10 @@ class LinkedList {
 
 
 
-
-let l = new LinkedList([1,2,3,4,5]);
-l.printLinkedList();
-l.removeElement(1);
-l.addElement(1);
+//
+// let l = new LinkedList([1,2,3,4,5]);
+// l.printLinkedList();
+// l.removeElement(1);
+// l.addElement(1);
 
 
