@@ -80,6 +80,32 @@ export class LinkedList {
         console.log('after adding new element, new linked list is ');
         this.printLinkedList();
     }
+
+    size() {
+        let length = 0;
+        let currNode = this.head;
+        while (currNode) {
+            length++;
+            currNode = currNode.next;
+        }
+
+        return length;
+    }
+
+    findElementAtIndex(index) {
+        const len = this.size();
+        if (len < index+1) {
+            return;
+        }
+        let currPos = 0;
+        let currNode = this.head;
+        while (currNode && currPos !== index) {
+            currPos++;
+            currNode = currNode.next;
+        }
+
+        return currNode;
+    }
 }
 
 
