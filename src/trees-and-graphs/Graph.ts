@@ -1,3 +1,5 @@
+import * as Sorting from '../sorting/sort';
+
 export class GraphNode {
     public name: string;
     public children: GraphNode[]
@@ -12,4 +14,6 @@ class Graph {
 
 const n = new GraphNode('1');
 console.log(n);
+const arr: number[] = Sorting.quickSort([1,2,4]);
+console.log(arr);
 

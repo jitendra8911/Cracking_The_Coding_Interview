@@ -1,5 +1,5 @@
 const arr = [12,30,45,60,72,90,100];
-class Node {
+class TreeNode {
     constructor(data) {
         this.data = data;
     }
@@ -14,7 +14,7 @@ class MinimalStack {
             throw 'empty minimal stack exception';
         }
         const mid = parseInt(arr.length / 2);
-        this.root = new Node(arr[mid]);
+        this.root = new TreeNode(arr[mid]);
         this.root = this.buildBinaryTree(this.root, 0, arr.length - 1);
     }
     buildBinaryTree(node, start, end) {
@@ -22,10 +22,10 @@ class MinimalStack {
             return
         }
         if (start === end) {
-            return new Node(arr[start]);
+            return new TreeNode(arr[start]);
         }
         const mid = parseInt((start + end)/2);
-        node = new Node(arr[mid]);
+        node = new TreeNode(arr[mid]);
         const left = this.buildBinaryTree(node, start, mid -1);
         const right = this.buildBinaryTree(node, mid+1, end);
         node.left = left;

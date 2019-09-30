@@ -12,19 +12,6 @@
             "preLaunchTask": "tsc: build - tsconfig.json",
             "sourceMaps": true,
             "outFiles": ["${workspaceFolder}/out/**/*.js"],
-        },
-        {
-			"type": "node",
-			"request": "launch",
-			"protocol": "inspector",
-			"name": "Javascript Debugger",
-			"program": "${file}",
-            "sourceMaps": true,
-            "runtimeArgs": [
-                "--nolazy",
-                "--require",
-                "babel-register"
-            ]
-		}
+        }
     ]
 }
