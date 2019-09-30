@@ -4,16 +4,27 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-
-
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Typescript Debugger",
             "program": "${file}",
             "preLaunchTask": "tsc: build - tsconfig.json",
-      "outFiles": ["${workspaceFolder}/out/**/*.js"]
-        }
+            "sourceMaps": true,
+            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+        },
+        {
+			"type": "node",
+			"request": "launch",
+			"protocol": "inspector",
+			"name": "Javascript Debugger",
+			"program": "${file}",
+            "sourceMaps": true,
+            "runtimeArgs": [
+                "--nolazy",
+                "--require",
+                "babel-register"
+            ]
+		}
     ]
 }
