@@ -22,4 +22,4 @@ export function updateBit(num:number, i:number, v:number) {
     return (~(1<<i) & num) | (v<<i)
 }
 
-console.log(this.updateBit(123, 7, 1));
+//console.log(this.updateBit(123, 7, 1));
