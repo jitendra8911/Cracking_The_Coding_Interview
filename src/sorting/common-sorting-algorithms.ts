@@ -34,6 +34,38 @@ export function merge(arr: number[], helperArr: number[], start: number, mid: nu
     }
 }
 
+export function quickSort(arr: number[], start: number = 0, end: number = arr.length - 1) {
+    if (start > end) return;
+    let pivot: number = findPivot(arr, start, end);
+    quickSort(arr, start, pivot-1);
+    quickSort(arr, pivot+1, end);
+}
+
+function findPivot(arr: number[], start: number, end: number) {
+    let leftArrayLastIndex: number = start-1;
+
+    for (let k:number = start; k < end; k++) {
+        if (arr[k] < arr[end]) {
+            leftArrayLastIndex++;
+            if (leftArrayLastIndex !== k) {
+                swap(arr, leftArrayLastIndex + 1, k);
+            }
+        }
+    }
+    if (leftArrayLastIndex+1 !== end) {
+        swap(arr, leftArrayLastIndex + 1, end);
+    }
+
+    leftArrayLastIndex++;
+    return leftArrayLastIndex;
+}
+
+function swap(arr: number[], i: number, j: number) {
+    let temp: number = arr[i];
+    arr[i] = arr[j];
+    arr[j] = temp;
+}
+
 let arr = [4,2,7,9,10,1,39,25,16];
-mergeSort(arr);
+quickSort(arr);
 console.log(arr);
